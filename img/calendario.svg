@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #74110c;
+        filter: url(#drop-shadow-88);
+      }
+
+      .cls-2 {
+        fill: #db2d2c;
+        filter: url(#drop-shadow-90);
+      }
+
+      .cls-3 {
+        filter: url(#drop-shadow-89);
+      }
+
+      .cls-3, .cls-4 {
+        fill: #be1622;
+      }
+
+      .cls-4 {
+        filter: url(#drop-shadow-91);
+      }
+    </style>
+    <filter id="drop-shadow-88" x="16.64" y="28.73" width="82.08" height="66.24" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur result="blur" stdDeviation="2"/>
+      <feFlood flood-color="#1d1d1b" flood-opacity=".5"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-89" x="-3.64" y="19.73" width="111.36" height="75.84" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur result="blur-2" stdDeviation="5"/>
+      <feFlood flood-color="#1d1d1b" flood-opacity=".5"/>
+      <feComposite in2="blur-2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-90" x="-7.72" y="19.73" width="115.44" height="66.96" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur result="blur-3" stdDeviation="5"/>
+      <feFlood flood-color="#1d1d1b" flood-opacity=".5"/>
+      <feComposite in2="blur-3" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-91" x="16.64" y="4.73" width="82.08" height="31.92" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur result="blur-4" stdDeviation="2"/>
+      <feFlood flood-color="#1d1d1b" flood-opacity=".5"/>
+      <feComposite in2="blur-4" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path class="cls-1" d="M22.82,34.86h69.76v48.28c0,3.1-2.52,5.62-5.62,5.62H28.44c-3.1,0-5.62-2.52-5.62-5.62v-48.28h0Z"/>
+  <path class="cls-3" d="M92.58,35.34c-.11,1.14-.22,2.28-.31,3.43-.91,10.57-3.6,30.21-5.03,33.15-.96,1.96-2.06,4.8-5.08,6.88-2.55,1.75-7.52,1.77-8.34,1.77-20.58-.01-39.25,0-59.83,0-1.18,0-1.99-.52-2.39-1.5-.38-.94-.18-1.95.61-2.72,4.76-4.65,7.94-10.31,10.2-16.55,1.76-4.86,2.78-16.89,3.16-22.05.07-.93.14-1.86.22-2.87h66.8v.48Z"/>
+  <path class="cls-2" d="M92.58,35.21c-.11.84-.18,1.69-.31,2.52-3.12,18.96-9.31,26.55-10.74,28.71-.96,1.44-2.85,2.65-6.35,4.19-2.61,1.15-8.07.75-8.89.75-20.58,0-35.71,0-56.29,0-1.18,0-1.99-.38-2.39-1.1-.38-.69-.18-1.44.61-2,4.76-3.42,10.19-10.5,12.45-15.09,1.76-3.57,1.57-12.42,1.94-16.22.07-.68.14-1.37.22-2.11h69.76v.36Z"/>
+  <path class="cls-4" d="M92.58,23.06v7.45H22.82v-7.44c0-2.58,2.09-4.67,4.67-4.67h5.76v-3.32c0-2.37,1.91-4.28,4.27-4.28h1.33c2.36,0,4.28,1.92,4.28,4.28v3.32h29.13v-3.32c0-2.36,1.92-4.28,4.28-4.28h1.33c2.36,0,4.27,1.91,4.27,4.28v3.32h5.76c2.58,0,4.67,2.09,4.67,4.67Z"/>
+</svg>
