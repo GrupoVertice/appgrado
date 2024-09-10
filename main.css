@@ -189,7 +189,7 @@ img.msg {
 }
 
 h2 {
-    color: #212121;
+    color: #2c5fad;
     font-weight: 100;
     font-size: 21px;
 }
@@ -250,6 +250,7 @@ a {
     border-radius: 15px;
     border-style: solid;
     border-color: #1b6794;
+    border-width: 3px;
     justify-content: space-between;
     box-shadow: #20202052 0px 0px 10px;
   }
@@ -262,7 +263,6 @@ a {
     font-size: 17px;
   }
   .mas {  
-    padding-top: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -355,6 +355,102 @@ a {
     box-shadow: #2020202c 2px 2px 5px;
   }
 
+  .spacer {
+    padding-top: 80px;
+  }
+
+  .cta {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+  }
+
+  .active {
+    margin-inline: 10%;
+    background-color: #3272a6;
+    color: whitesmoke;
+    padding: 9px;
+    border-radius: 13px;
+  }
+
+  .unactive {
+    padding: 9px;
+    background-color: #eeeeee;
+    border-radius: 13px;
+    margin-inline: 10%;
+  }
+
+  .cuentas {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "."
+    ".";
+  }
+
+  .cxc {
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 3%;
+    box-shadow: #2020202c 1px 2px 7px;
+    display: grid; 
+    grid-template-columns: 1.7fr 0.3fr; 
+    gap: 0px 5px; 
+    grid-template-areas: 
+      ". pdf"
+      "concepto monto"
+      "fecha monto"; 
+    justify-items: stretch; 
+    align-items: center; 
+  }
+
+  .cxcr {
+    margin-top: 30px;
+    border-radius: 20px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(184, 33, 33);
+    border-bottom-width: 5px;
+    padding: 3%;
+    box-shadow: #2020202c 1px 2px 7px;
+    display: grid; 
+    grid-template-columns: 1.7fr 0.3fr; 
+    gap: 0px 5px; 
+    grid-template-areas: 
+      ". pdf"
+      "concepto monto"
+      "fechar monto"; 
+    justify-items: stretch; 
+    align-items: center; 
+  }
+
+
+  .concepto { grid-area: concepto; 
+    color: #1b6794;
+    font-weight: 300;
+    font-size: 18px;
+  }
+
+  .fecha { grid-area: fecha; 
+    font-size: 15px;
+  }
+
+  .fechar { grid-area: fechar; 
+    font-size: 15px;
+    color:rgb(184, 33, 33);
+  }
+
+  .monto { grid-area: monto;
+    font-size: 20px;
+  }
+
+  .pdf { grid-area: pdf; 
+    background-color: #474747;
+    color: whitesmoke;
+    margin-top: -20px;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+  }
 
   @media (min-width: 550px) {
 body {
