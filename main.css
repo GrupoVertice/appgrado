@@ -189,7 +189,7 @@ img.msg {
 }
 
 h2 {
-    color: #2c5fad;
+    color: #267bb4;
     font-weight: 100;
     font-size: 21px;
 }
@@ -219,25 +219,28 @@ a {
     width: 100%;
   }
 
+  p {
+    font-size: 21px;
+  }
 
   select {
     font-family: Gabarito;
-    background-image: linear-gradient(170deg, #212121 70%, #ac1111);
+    font-size: 21px;
+    background-color: white;
     border: none;
     border-bottom-style: solid;
-    border-bottom-color: #ac1111;
-    border-right-color: #ac1111;
-    border-right-style: solid;
-    color: whitesmoke;
+    border-bottom-color: #5693b1;
     width: 100%;
+    padding: 5px;
+    border-radius: 10px;
   }
   
   option {
-    background-color: #202020;
+    background-color: #e7e7e7;
   }
 
   option::before {
-    background-color: #ac1111
+    background-color: #267bb4;
   }
 
   img.cal {
@@ -389,7 +392,7 @@ a {
   }
 
   .cxc {
-    margin-top: 30px;
+    margin-bottom: 30px;
     border-radius: 20px;
     padding: 3%;
     box-shadow: #2020202c 1px 2px 7px;
@@ -405,7 +408,7 @@ a {
   }
 
   .cxcr {
-    margin-top: 30px;
+    margin-bottom: 30px;
     border-radius: 20px;
     border-bottom-style: solid;
     border-bottom-color: rgb(184, 33, 33);
@@ -423,6 +426,24 @@ a {
     align-items: center; 
   }
 
+  .cxcv {
+    margin-bottom: 25px;
+    border-radius: 20px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(33, 158, 21);
+    border-bottom-width: 5px;
+    padding: 3%;
+    box-shadow: #2020202c 1px 2px 7px;
+    display: grid; 
+    grid-template-columns: 1.7fr 0.3fr; 
+    gap: 0px 5px; 
+    grid-template-areas: 
+      ". pdf"
+      "concepto monto"
+      "fechav monto"; 
+    justify-items: stretch; 
+    align-items: center; 
+  }
 
   .concepto { grid-area: concepto; 
     color: #1b6794;
@@ -439,6 +460,11 @@ a {
     color:rgb(184, 33, 33);
   }
 
+  .fechav { grid-area: fechav; 
+    font-size: 15px;
+    color:rgb(33, 158, 21);
+  }
+
   .monto { grid-area: monto;
     font-size: 20px;
   }
@@ -450,6 +476,28 @@ a {
     border-radius: 10px;
     padding: 5px;
     text-align: center;
+  }
+
+  .nueva {
+    width: 100%;
+    padding-top: 7%;
+    padding-left: 10%;
+    padding-right: 15%;
+    background-image: url(img/nuevasombra.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 20vh;
+  }
+
+  .abierta {
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 15%;
+    background-image: url(img/abiertas.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 20vh;
   }
 
   @media (min-width: 550px) {
