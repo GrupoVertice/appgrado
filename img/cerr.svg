@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #b3e0f9;
+        filter: url(#drop-shadow-95);
+      }
+
+      .cls-2 {
+        filter: url(#drop-shadow-92);
+      }
+
+      .cls-2, .cls-3 {
+        fill: #1d71b8;
+      }
+
+      .cls-4 {
+        fill: #36a9e1;
+        filter: url(#drop-shadow-94);
+      }
+
+      .cls-3 {
+        filter: url(#drop-shadow-93);
+      }
+    </style>
+    <filter id="drop-shadow-92" x="-.67" y="16.13" width="52.32" height="67.68" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur result="blur" stdDeviation="3"/>
+      <feFlood flood-color="#1d1d1b" flood-opacity=".25"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-93" x="48.29" y="16.13" width="52.32" height="67.68" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur result="blur-2" stdDeviation="3"/>
+      <feFlood flood-color="#1d1d1b" flood-opacity=".25"/>
+      <feComposite in2="blur-2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-94" x="-.67" y="40.85" width="101.28" height="42.96" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur result="blur-3" stdDeviation="3"/>
+      <feFlood flood-color="#1d1d1b" flood-opacity=".25"/>
+      <feComposite in2="blur-3" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-95" x="-.67" y="16.13" width="101.28" height="50.4" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur result="blur-4" stdDeviation="3"/>
+      <feFlood flood-color="#1d1d1b" flood-opacity=".25"/>
+      <feComposite in2="blur-4" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <polygon class="cls-2" points="8.52 25.32 42.56 50 8.52 74.68 8.52 25.32"/>
+  <polygon class="cls-3" points="91.48 25.32 57.44 50 91.48 74.68 91.48 25.32"/>
+  <polygon class="cls-4" points="8.52 74.68 42.56 50 57.44 50 91.48 74.68 8.52 74.68"/>
+  <path class="cls-1" d="M8.52,25.32h82.97l-38.29,31.01c-1.86,1.51-4.52,1.51-6.39,0L8.52,25.32Z"/>
+</svg>
