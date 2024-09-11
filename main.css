@@ -59,7 +59,8 @@ ul.menu {
 }
 
 .menu a:hover{
-  background-color: rgb(136, 15, 15);
+  background-color: #25618a;
+  color: white;
 }
 .nav{
   max-height: 0;
@@ -230,11 +231,23 @@ a {
     border: none;
     border-bottom-style: solid;
     border-bottom-color: #5693b1;
+    border-width: 5px;
     width: 100%;
     padding: 5px;
     border-radius: 10px;
   }
   
+  input {
+    font-size: 21px;
+    background-color: white;
+    border: none;
+    border-bottom-style: solid;
+    border-bottom-color: #5693b1;
+    border-width: 5px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
   option {
     background-color: #e7e7e7;
   }
@@ -255,6 +268,18 @@ a {
     border-color: #1b6794;
     border-width: 3px;
     justify-content: space-between;
+    box-shadow: #20202052 0px 0px 10px;
+  }
+
+  div.boton {
+    font-size: 21px;
+    padding: 10px;
+    width: 40%;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #1b6794;
+    border-width: 5px;
+    text-align: center;
     box-shadow: #20202052 0px 0px 10px;
   }
 
@@ -498,6 +523,13 @@ a {
     background-size: contain;
     background-repeat: no-repeat;
     height: 20vh;
+  }
+
+  .colegio {
+    text-align: center;
+    img {
+      width: 30%;
+    }
   }
 
   @media (min-width: 550px) {
