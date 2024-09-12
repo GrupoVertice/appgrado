@@ -210,6 +210,20 @@ a {
     }
   }
 
+  .contacto2 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-bottom: 5%;
+    align-items: center;
+    a {
+      width: 45%;
+    }
+    img {
+      width: 30px;
+    }
+  }
+
   .svg {
     box-shadow: #000000ab 5px 5px 20px;
     border-radius: 7vw;
