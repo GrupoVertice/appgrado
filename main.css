@@ -242,9 +242,30 @@ img.msg {
 }
 
 h2 {
-    color: #267bb4;
+    color: #1c87df;
     font-weight: 100;
     font-size: 21px;
+}
+
+h3 {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.7rem;
+  strong {
+    color: #2796ff;
+  }
+}
+
+button {
+  background-color: #3272A6;
+  color: white;
+  width: 100%;
+  border-style: none;
+  padding: 5px;
+  font-size: 25px;
+  border-radius: 20px;
+  font-family: Gabarito;
+  box-shadow: #20202052 0px 0px 5px;
 }
  
 a {
@@ -315,6 +336,7 @@ a {
   
   input {
     font-size: 21px;
+    width: 100%;
     background-color: white;
     border: none;
     border-bottom-style: solid;
@@ -509,6 +531,15 @@ a {
       ". pdf"
       "concepto monto"
       "fecha monto"; 
+    justify-items: stretch; 
+    align-items: center; 
+  }
+
+  .pago {
+    margin-bottom: 30px;
+    border-radius: 20px;
+    padding: 3%;
+    box-shadow: #2020202c 1px 2px 7px;
     justify-items: stretch; 
     align-items: center; 
   }
